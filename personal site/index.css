@@ -1,6 +1,9 @@
  body {
-     background-color: #000000;
-     background-repeat: repeat;
+     /* background-color: #000000;
+     background-repeat: repeat; */
+     background-image: url(/image/Screenshot\ 2022-10-20\ 183915.jpg);
+     background-repeat: no-repeat;
+     background-size: cover;
  }
 
  h1 {
@@ -53,4 +56,8 @@
   }
   hr{
     border-style: none;
+  }
+  div{
+    display: flex;
+    flex-direction: column;
   }
